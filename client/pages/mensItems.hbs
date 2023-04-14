@@ -1,0 +1,42 @@
+<body>
+    <main class="main container">
+      {{> header this.info}}
+      <div class="wrapper">
+        {{#each data}}
+        <div class="wrInner">
+          <div class="questionBlock">
+            <h5 class="questionBlockTitle">Штучка №{{this.id}}</h5>
+            <div class="imgDiv">
+              <img src={{this.img}} alt="Загрузка">
+            </div>
+            <h5>{{this.title}}</h5>
+         </div>
+        <form class="form formAnswers">
+          <div class="formInner">
+            {{#each this.vars}}
+            <div class="formItem">
+              <input
+                class="formRadio"
+                type="radio"
+                name="flexRadioDefault"
+                value={{this}}
+              />
+              <label class="formLabel" for="flexRadioDefault1">{{this}}</label>
+            </div>
+            {{/each}}
+            </div>
+          </div>
+        </form>
+        <div class="correctAnswer d-none">{{this.correct}}</div>
+        </div>   
+        <hr>
+        {{/each}}
+      </div>
+        <div class="d-flex justify-content-around w-100">
+          <a href="/" class="btn btn-secondary mt-3  f-14 goBackBtn">Назад</a>
+          <button class="btn btn-primary mt-3 f-14 checkAnswersBtn">Подтвердить</button>
+        </div>
+    </main>
+    <script src="client/assets/js/mensItems.js"></script>
+  </body>
+</html>

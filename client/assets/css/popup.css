@@ -1,0 +1,70 @@
+.popupVictoryOverlay,
+.popupOverlay,
+.popupResetScoreOverlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s linear;
+}
+
+.popupVictoryOverlay.active,
+.popupOverlay.active,
+.popupResetScoreOverlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup {
+  overflow: hidden;
+  padding: 25px;
+  width: 80%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.popupTitleScoreDiv {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupTitleScore {
+  font-size: 26px;
+}
+
+.popupSubTitleVictory {
+  max-width: 300px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.popupButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

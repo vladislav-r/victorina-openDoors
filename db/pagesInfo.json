@@ -1,0 +1,34 @@
+{
+	"pages": {
+		"zagadkiTunaev": {
+			"score": 40,
+			"title": "Break the brain",
+			"href": "/zagadkiTunaev"
+		},
+		"memories": {
+			"score": 20,
+			"title": "Информатика",
+			"href": "/memories"
+		},
+		"historyOfDate": {
+			"score": 30,
+			"title": "Программирование",
+			"href": "/historyOfDate"
+		},
+		"mensItems": {
+			"score": 30,
+			"title": "Для размышления",
+			"href": "/mensItems"
+		},
+		"ugadaiPoFraze": {
+			"score": 20,
+			"title": "Угадайка",
+			"href": "/ugadaiPoFraze"
+		},
+		"popularPersons": {
+			"score": 20,
+			"title": "Личности",
+			"href": "/popularPersons"
+		}
+	}
+}

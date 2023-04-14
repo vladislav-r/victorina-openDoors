@@ -1,0 +1,27 @@
+<body>
+  <main class='main container'>
+    {{>header this.info}}
+    <div class='wrapper'>
+      <p><i>Дан набор прилагательных. Вам нужно назвать одно слово, которое подходит по смыслу к каждому прилагательному</i></p>
+      {{#each data}}
+        <form id={{this.id}} class='wrapperInner' method='dialog'>
+          <div class='phraseBlock'>
+            <h5 class='phraseTitle questionBlockTitle'>№{{this.id}}</h5>
+            <p class='blockText'>{{this.text}}</p>
+            {{!-- prettier-ignore --}}
+            <input id={{this.id}}  name='answerPrepod' type='text' class='input answerPrepod answerName' placeholder='Ответ' value=''/>
+            <span class='input inputCorrectVar d-none' id={{this.id}}>{{this.correct}}</span>
+          </div>
+          {{!-- prettier-ignore --}}
+          <button id={{this.id}} type="submit" class='btn btn-primary mt-3 f-14 checkAnswersBtn'>Проверить</button>
+        </form>
+        <hr />
+      {{/each}}
+    </div>
+    <div class='d-flex justify-content-around w-100'>
+      <a href='/' class='btn btn-secondary mt-4 f-14 goBackBtn'>Назад</a>
+      <button class='btn btn-primary mt-4 f-14 btnSuccessForms'>Подтвердить</button>
+    </div>
+  </main>
+  <script src='client/assets/js/ugadaiPoFraze.js'></script>
+</body>

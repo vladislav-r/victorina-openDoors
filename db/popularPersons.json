@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"img": "client/assets/img/popularPersons/durov.jpg",
+		"vars": ["Павел Дуров", "Стив Джобс", "Марти Макфлай", "Роберт Де Ниро"],
+		"correct": "Павел"
+	},
+	{
+		"id": 2,
+		"img": "client/assets/img/popularPersons/linus.jpg",
+		"vars": ["Линус Торвальдс", "Илон Маск", "Сергей Прокопенко", "Максимилиано Белуччи"],
+		"correct": "Линус"
+	},
+	{
+		"id": 3,
+		"img": "client/assets/img/popularPersons/turing.jpg",
+		"vars": ["Лжедмитрий II", "Алонзо Чёрч", "Алан Тьюринг", "Густаф Мульфштаце"],
+		"correct": "Алан"
+	}
+]

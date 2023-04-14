@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"img": "client/assets/img/mensItems/bessonica.jpg",
+		"title": "Готов ли ты уделять большую часть суток для работы за компьютером?",
+		"vars": ["Да", "Нет"],
+		"correct": "Карбюратор"
+	},
+	{
+		"id": 2,
+		"img": "client/assets/img/mensItems/hacking_meme.jpg",
+		"title": "Способен ли ты полностью сосредоточиться на одном деле на несколько часов?",
+		"vars": ["Да", "Нет"],
+		"correct": "Да"
+	},
+	{
+		"id": 3,
+		"img": "client/assets/img/mensItems/progr_on_beach.jpg",
+		"title": "Тебе интересны такие отрасли, как: веб-дизайн, программирование, информационная безопасность, метематика?",
+		"vars": ["Да", "Нет"],
+		"correct": "Да"
+	}
+]
