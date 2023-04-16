@@ -1,10 +1,5 @@
 {
 	"pages": {
-		"zagadkiTunaev": {
-			"score": 40,
-			"title": "Break the brain",
-			"href": "/zagadkiTunaev"
-		},
 		"memories": {
 			"score": 20,
 			"title": "Информатика",

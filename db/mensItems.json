@@ -4,7 +4,7 @@
 		"img": "client/assets/img/mensItems/bessonica.jpg",
 		"title": "Готов ли ты уделять большую часть суток для работы за компьютером?",
 		"vars": ["Да", "Нет"],
-		"correct": "Карбюратор"
+		"correct": "Да"
 	},
 	{
 		"id": 2,
