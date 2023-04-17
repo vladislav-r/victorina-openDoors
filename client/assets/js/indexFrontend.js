@@ -10,11 +10,11 @@ const popupSubTitleVictory = document.querySelector('.popupSubTitleVictory');
 localStorage.getItem('score') ?? localStorage.setItem('score', 0);
 document.querySelector('.scoreCount').innerHTML = `${localStorage.score ?? 0}`;
 
-if (localStorage.score >= 100 && localStorage.isVictory == 'false') {
+if (localStorage.score >= 280 && localStorage.isVictory == 'false') {
 	popupVictoryOverlay.classList.add('active');
 	popupTitleVictory.textContent = 'Поздравляем!';
 	popupSubTitleVictory.textContent = `Вы набрали достаточное количество очков, показали свои знания и без проблем можете поступать на специальность
-  Информационные системы и программирование.`;
+  Информационные системы и программирование!`;
 	localStorage.isVictory = true;
 }
 

@@ -77,6 +77,23 @@ hr {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.headerBackBtn {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 5px 8px;
+
+	color: inherit;
+	text-decoration: none;
+
+	cursor: pointer;
+}
+
+.headerBackBtn:hover {
+	text-decoration: underline;
+}
+
 .headerScore {
 	display: flex;
 	align-items: center;
@@ -319,7 +336,8 @@ hr {
 /* INDEX  */
 
 .categoryTitleWrapper {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
